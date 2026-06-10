@@ -19,18 +19,6 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.4444444444444444,
-      "y": 0.3899721448467966,
-      "uniqueID": "id-4",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
       "x": 0.22023809523809526,
       "y": 0.4958217270194986,
@@ -465,30 +453,9 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.5185185185185185,
-      "y": 0.5738161559888579,
-      "uniqueID": "id-144",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-144"
-    },
     {
       "ap2Name": "number or geometry",
       "ap1ID": "id-7",
